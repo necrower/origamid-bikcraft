@@ -19,6 +19,7 @@ p {
 
 img {
   display: block;
+	max-width: 100%;
 }
 
 .btn {
@@ -206,6 +207,10 @@ img {
   text-align: center;
 }
 
+.produtos_lista li img {
+  margin: 0 auto;
+}
+
 .produtos_lista li h3 {
   font-size: 18px;
   font-weight: bold;
@@ -374,8 +379,6 @@ img {
   display: block;
   border: 3px solid #fec63e;
   padding: 10px;
-  width: 58px;
-  height: 58px;
 }
 
 .footer_rede ul li a:hover {
